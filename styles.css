@@ -1,0 +1,30 @@
+
+
+body{
+    background-color: rgb(48, 48, 48);
+    color: rgb(211, 183, 237);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 2rem;
+    margin: 2rem;
+    
+}
+
+h1 {
+    box-shadow: 2px black;
+   
+}
+
+div {
+    
+    padding: 2rem;
+}
+
+button {
+    background-color: antiquewhite;
+    color:  rgb(48, 48, 48);
+}
+
+footer {
+    padding: 5rem;
+    align-items: flex-end;
+}
