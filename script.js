@@ -33,3 +33,14 @@ function checkage() {
         alert("You are NOT old enough");
     }
 }
+
+function checkDate() {
+    let date = document.getElementById("date").value;
+
+    if (date > 0 && date <= 30)  {
+        alert("This is a valid date. You may continue")
+    }
+    else {
+        alert("This is not a valid date. Try again.")
+    }
+}
