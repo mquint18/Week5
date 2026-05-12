@@ -22,6 +22,7 @@ div {
 button {
     background-color: antiquewhite;
     color:  rgb(48, 48, 48);
+    border-radius: 5px;
 }
 
 footer {

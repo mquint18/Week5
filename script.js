@@ -44,3 +44,50 @@ function checkDate() {
         alert("This is not a valid date. Try again.")
     }
 }
+/*
+let marks = 80;
+if(marks >= 90) {
+    console.log("A");
+}
+
+else if(marks >=80) {
+    console.log("B");
+}
+else if(marks >=70) {
+    console.log("C");
+}
+else {
+    console.log('F')
+}
+*/
+// loops
+
+console.log("Hello 1 time");
+
+
+for(let i  = 1; i <= 16; i++) {
+    console.log("Hello " + i);
+}
+
+for(let j=100; j > 0; j--) {
+    console.log("Goodbye " + j);
+}
+
+for(let k=100; k>=0; k--){
+    if(k >= 90){
+        console.log("It's hot!");
+    }
+    else if(k >= 75){
+        console.log("It's warm");
+    }
+    else if (k>=50){
+        console.log("It's cool");
+    }
+    else if(k>= 32){
+        console.log("It's cold")
+    }
+    else {
+        console.log("It's freezing!")
+    }
+
+}
