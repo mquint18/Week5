@@ -95,7 +95,7 @@ for(let k=100; k>=0; k--){
 }
 */
 
-
+/*
 let total = 0;
 
 for (let a = 1; a<= 5; a++) {
@@ -115,9 +115,10 @@ while(c>=1){
     console.log(c);
     c--;
 }
+*/
 
 // print odd and even numbers
-
+/*
 for (let z=1; z<=20; z++) {
     if (z % 2 == 0) {
         console.log(z + ' is an EVEN mumber');
@@ -126,4 +127,35 @@ for (let z=1; z<=20; z++) {
         console.log(z + " is an ODD number");
     }
 }
+*/
 
+/*
+let marks = [36, 23, 47, 90];
+
+for (let e = 0; e <marks.length; e++) {
+    console.log("The value of marks at index " + e + " is " + marks[e])
+
+    if (marks[e] >= 50) {
+        console.log("Pass");
+    }
+    else {
+        console.log('Fail');
+    }
+}
+
+let numList = [-2, -5, 0, 34, 18, 89, -21];
+
+    for (let g=0; g<numList.length; g++){
+        if (numList[g] < 0) {
+            console.log(numList[g] + " is a Negative Number");
+        }
+        else if(numList[g] > 0) {
+            console.log(numList[g] + " is a Positive number");
+        }
+        else {
+            console.log(numList[g] + " is neither positive or negative");
+        }
+    }
+        */
+
+ 
