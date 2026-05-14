@@ -62,8 +62,9 @@ else {
 */
 // loops
 
-console.log("Hello 1 time");
+//console.log("Hello 1 time");
 
+/*
 
 for(let i  = 1; i <= 16; i++) {
     console.log("Hello " + i);
@@ -89,5 +90,40 @@ for(let k=100; k>=0; k--){
     else {
         console.log("It's freezing!")
     }
+ 
 
 }
+*/
+
+
+let total = 0;
+
+for (let a = 1; a<= 5; a++) {
+    total  +=a;
+    console.log('total is '+ total);
+}
+
+let b = 1;
+let c = 10;
+
+while(b <= 8) {
+    console.log(b);
+    b++;
+}
+
+while(c>=1){
+    console.log(c);
+    c--;
+}
+
+// print odd and even numbers
+
+for (let z=1; z<=20; z++) {
+    if (z % 2 == 0) {
+        console.log(z + ' is an EVEN mumber');
+    }
+    else {
+        console.log(z + " is an ODD number");
+    }
+}
+
