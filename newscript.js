@@ -72,6 +72,72 @@ for(i=0; i<9; i++) {
 table = [ones, twos, threes, fours, fives, sixes, sevens, eights, nines];
 
 console.log(table);
+
+    let multList = [];
+
+    for (let m = 0; m < table.length; m++) {
+
+      multList += table[m] + "<br>";
+    document.getElementById("js-MultTable").innerHTML = multList;
+
+}}
+
+
+function getTableRow(){ 
+    timesTable();
+
+    let numeral = Number(document.getElementById("numeral").value);
+    let multRow = [];
+console.log(numeral);
+
+
+    switch (numeral) {
+        
+
+
+            case 1:
+                multRow = ones;
+            break;
+
+            case 2:
+                multRow = twos;
+            break;
+
+            case 3:
+                multRow = threes;
+            break;
+
+            case 4:
+               multRow = fours;
+            break;
+
+            case 5:
+               multRow = fives;
+            break;
+
+            case 6:
+                multRow = sixes;
+            break;
+
+            case 7:
+                multRow = sevens;
+            break;
+
+            case 8:
+                multRow = eights;
+            break;
+            
+            case 9: 
+                multRow = nines;
+
+            // default: 
+            //     multRow = ["Not a valid input"];
+    }
+
+        document.getElementById("js-table-row").innerHTML = multRow;
+
+    }
+
 }
 
 
@@ -102,6 +168,7 @@ for (z=2; z<=100; z++){
         
     }
     
-    }
+    
+    document.getElementById("js-showPrimes").innerHTML = primes;
     console.log(primes);
 }

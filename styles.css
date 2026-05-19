@@ -33,3 +33,14 @@ footer {
     display:inline-flexbox;
     align-items:end;
 }
+
+.no-listers{
+    list-style: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    font-variant: numeric;
+}
+
+.js-showPrimes{
+    letter-spacing: .5rem;
+}
